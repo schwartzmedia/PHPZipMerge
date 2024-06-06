@@ -1,11 +1,11 @@
 {
-    "name": "grandt/phpzipmerge",
+    "name": "schwartzmedia/phpzipmerge",
     "type": "library",
     "description": "Merge and stream multiple Zip files on the fly.",
     "keywords": ["phpzip", "zip", "pkzip", "archive", "compressed", "compression", "stream", "merge"],
     "homepage": "https://github.com/Grandt/PHPZipMerge",
     "license": "LGPL-2.1",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "authors": [
         {
             "name": "A. Grandt",
@@ -17,10 +17,16 @@
             "name": "Greg Kappatos",
             "homepage": "http://websiteconnect.com.au",
             "role": "Developer"
+        },
+        {
+            "name": "Patrick B",
+            "email": "patrickb@schwartzmedia.com.au",
+            "homepage": "https://schwartzmedia.com.au",
+            "role": "Developer"
         }
     ],
     "require": {
-        "grandt/binstring": ">=1.0.0",
+        "schwartzmedia/binstring": "1.1.0",
         "grandt/relativepath": ">=1.0.1",
         "php": ">=5.3.0"
     },
